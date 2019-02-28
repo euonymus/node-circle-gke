@@ -49,7 +49,7 @@ jobs:
     environment:
       - PROJECT_NAME: "dev-sandbox"
       - GOOGLE_PROJECT_ID: "dev-sandbox-233102"
-      - GOOGLE_COMPUTE_ZONE: "europe-west3-a"
+      - GOOGLE_COMPUTE_ZONE: "us-central1-a"
       - GOOGLE_CLUSTER_NAME: "standard-cluster-1"
     steps:
       - checkout
